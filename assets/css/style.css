@@ -1,5 +1,5 @@
 /*-----SITE COLOR PALETTE
-AO english: #157f1fff;
+AO english: #157f1f;
 Emerald: #4cb963;
 Middle-blue-green: #a0eade;
 Dark-blue-gray: #5c6784;
@@ -14,10 +14,21 @@ Roboto, weights: 400  (General text)
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0400;&display=swap');
 
+/*------FONTS---------*/
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+}
 
-/*------VIDEO code from https://startbootstrap.com/snippets/video-header-->*/
+h1 {
+    font-family: Oswald, sans-serif;
+    font-size: 10rem;
+}
 
-header {
+
+/*------HERO Section---*/
+
+#hero {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -26,7 +37,7 @@ header {
   overflow: hidden;
 }
 
-header video {
+#hero video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,12 +52,12 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+#hero .container {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+#hero .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -57,17 +68,78 @@ header .overlay {
   z-index: 1;
 }
 
+.btn {
+    margin-top: 20px;
+    background-color: #157f1f;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    background-color: white ;
+    border-color: white;
+    color: #157f1f;
+    
+}
+
 /*------VIDEO FALLBACK FOR NON-COMPATIBLE MOVILE DEVICES*/
 @media (pointer: coarse) and (hover: none) {
-  header {
+  hero {
     background: url('assets/images/fallback_mower.jpg') black no-repeat center center scroll;
   }
-  header video {
+  hero video {
     display: none;
   }
 }
 
-/*------HERO CALL TO ACTION BUTTON*/
-.btn {
-    margin-top: 20px;
+/*---NAV---*/
+
+.navbar {
+    height: 90px;
+    background-color:rgba(21, 127, 31, 0.9);
+    border-bottom: 4px solid #a0eade;
+    box-shadow: 0px 2px 5px #1d263b;
+      
 }
+
+.navbar-brand img {
+    filter: drop-shadow(2px 2px 2px #1d263b);
+   
+}
+
+.navbar-brand:hover img {
+    filter: drop-shadow(2px 2px 2px #a0eade);
+}
+
+.nav-link {
+    font-family: 'Oswald', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.navbar-toggler {
+    font-size: 1.9rem;
+    color: #ffffff;
+    border: none;
+    padding: 0;
+    margin-right: 0.3rem;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    color: #a0eade;
+}
+
+.navbar-brand-color:focus, .navbar-brand-color:hover {
+    color: #B8873A;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #a0eade;
+}
+
+

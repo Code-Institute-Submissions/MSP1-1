@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="The Best Robot Lawnmower" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="FitzMow AutoMower" />
         <meta name="author" content="Niall Fitzgerald" />
-        <title>The Best Robot Lawnmower</title>
+        <title>FitzMow AutoMower</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
         <!-- Font Awesome-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-        <!-- Hover.css-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
         <!-- Core style-->
         <link rel="stylesheet" href="assets/css/style.css">
     
     </head>
 <body>
+
     <header>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/images/logo.png" alt="" /></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
+        <!-- Bootstrap 5Nav-->
+        <nav class="navbar navbar-expand-lg fixed-top bg-color-navbar">
+            <div class="container-xl">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" height="51" class="d-inline-block align-top" alt="FitzMow Logo"
+                        loading="lazy">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#features">Features</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item" data-toggle="collapse" data-target="#menu">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target="#menu">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target="#menu">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-    </nav>
-    
+        </nav>
+    </header>
+
+    <section id="hero">
         <!-- Video Overlay from https://startbootstrap.com/snippets/video-header-->
         <div class="overlay"></div>
             <!-- Video Background-->
@@ -47,21 +58,29 @@
             <div class="container h-100">
                 <div class="d-flex h-100 text-center align-items-center">
                     <div class="w-100 text-white">
-                        <h1 class="display-3">The Automower</h1>
+                        <h1 class="display-3">AutoMower 2</h1>
                         <p class="lead mb-0">The next generation in affordable auto lawnmowers</p>
-                        <a class="btn btn-primary btn-xl text-uppercase " href="#contact">BOOK A CALL</a>
+                        <a class="btn btn-primary btn-lg text-uppercase " href="#contact">CALL NOW</a>
                     </div>
                 </div>
             </div>
-    </header>
+        </section>
+
     <!-- Primary Features Section-->
-    <section>
+    <section id="features">
     </section> 
+
     <!-- Secondary Features Section-->
-    <section>
+    <section id="secondary-features-grid">
     </section>
+
+    <!-- Contact Section-->
+    <section id="contact">
+    </section>
+
     <!-- Footer-->
     <footer>
     </footer>  
+
 </body>
 </html>
