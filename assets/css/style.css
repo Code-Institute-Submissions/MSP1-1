@@ -1,0 +1,15 @@
+/*-----SITE COLOR PALETTE
+AO english: #157f1fff;
+Emerald: #4cb963;
+Middle-blue-green: #a0eade;
+Dark-blue-gray: #5c6784;
+Oxford-blue: #1d263b;
+*/
+
+
+/*------GFONTS
+Oswald, weights: 200, 400, 600 (Headings)
+Roboto, weights: 400  (General text)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0400;&display=swap');
