@@ -13,3 +13,61 @@ Roboto, weights: 400  (General text)
 */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0400;&display=swap');
+
+
+/*------VIDEO code from https://startbootstrap.com/snippets/video-header-->*/
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/*------VIDEO FALLBACK FOR NON-COMPATIBLE MOVILE DEVICES*/
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('assets/images/fallback_mower.jpg') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+/*------HERO CALL TO ACTION BUTTON*/
+.btn {
+    margin-top: 20px;
+}
