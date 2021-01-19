@@ -191,3 +191,34 @@ h3 {
     padding-top: 40px;
     color: #4cb963;
 }
+
+.gridpad {
+    padding: 20px;
+}
+
+/*---MAP & CONTACT FORM---*/
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+/*---FOOTER---*/
+
+.footer {
+  background-color: #157f1f ;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.text-lg-left, .text-lg-right {
+    color: #ffffff;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-linkedin-in {
+    color: #ffffff;
+    padding: 20px;
+}
