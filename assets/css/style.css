@@ -15,14 +15,32 @@ Roboto, weights: 400  (General text)
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0400;&display=swap');
 
 /*------FONTS---------*/
-p {
+p{
     font-family: Roboto, sans-serif;
     font-size: 1.3rem;
+    color: slategray;
+    margin-top: 20px;
 }
+
+.hero-text {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+    color:#ffffff;
+}
+
 
 h1 {
     font-family: Oswald, sans-serif;
-    font-size: 10rem;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #white;
+}
+
+h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #157f1f;
 }
 
 
@@ -31,7 +49,7 @@ h1 {
 #hero {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 90vh; /*------Expose next section---*/
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -46,9 +64,6 @@ h1 {
   width: auto;
   height: auto;
   z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
 
@@ -69,7 +84,7 @@ h1 {
 }
 
 .btn {
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: #157f1f;
     border-color: white;
 }
@@ -142,4 +157,4 @@ h1 {
     color: #a0eade;
 }
 
-
+/*------Features Section---*/
