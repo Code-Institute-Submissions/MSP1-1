@@ -43,6 +43,12 @@ h2 {
     color: #157f1f;
 }
 
+h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 1.8rem;
+    color: #157f1f;
+}
+
 
 /*------HERO Section---*/
 
@@ -157,4 +163,31 @@ h2 {
     color: #a0eade;
 }
 
-/*------Features Section---*/
+/*------Secondary Features Section Grid---*/
+#secondary-features {
+  padding: 6rem 0;
+  background-color: #1d263b;
+}
+
+#secondary-features h2 {
+    color: #ffffff;
+}
+
+#secondary-features h3 {
+    color: #a0eade;
+    padding-top: 15px;
+}
+
+#secondary-features h4 {
+    color: #a0eade;
+}
+
+#secondary-features p {
+    color: #4cb963;
+    font-size: 1.3rem;
+}
+
+.fa-info-circle {
+    padding-top: 40px;
+    color: #4cb963;
+}
