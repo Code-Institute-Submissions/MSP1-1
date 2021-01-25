@@ -33,7 +33,6 @@ h1 {
     font-family: Oswald, sans-serif;
     font-size: 5rem;
     text-transform: uppercase;
-    color: #white;
 }
 
 h2 {
@@ -92,12 +91,12 @@ h3 {
 .btn {
     margin-top: 40px;
     background-color: #157f1f;
-    border-color: white;
+    border-color:#ffffff;
 }
 
 .btn-primary:hover {
-    background-color: white ;
-    border-color: white;
+    background-color: #ffffff;
+    border-color: #ffffff;
     color: #157f1f;
     
 }
@@ -112,11 +111,11 @@ h3 {
   }
 }
 
-/*---NAV---*/
+/*---NAV--*/
 
 .navbar {
-    height: 90px;
-    background-color:rgba(21, 127, 31, 0.9);
+    
+    background-color: #157f1f;
     border-bottom: 4px solid #a0eade;
     box-shadow: 0px 2px 5px #1d263b;
       
@@ -138,30 +137,9 @@ h3 {
     letter-spacing: 0.1rem;
 }
 
-.navbar-toggler {
-    font-size: 1.9rem;
-    color: #ffffff;
-    border: none;
-    padding: 0;
-    margin-right: 0.3rem;
-}
 
-.navbar-toggler:focus, .navbar-toggler:active {
-    outline: none;
-    color: #a0eade;
-}
 
-.navbar-brand-color:focus, .navbar-brand-color:hover {
-    color: #B8873A;
-}
 
-.nav-link {
-    color: #ffffff;
-}
-
-.nav-link:hover, .nav-link:active {
-    color: #a0eade;
-}
 
 /*------Secondary Features Section Grid---*/
 #secondary-features {
