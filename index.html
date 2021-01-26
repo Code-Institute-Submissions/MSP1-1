@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
           
     </head>
+
 <body>
 
     <header>
@@ -35,10 +37,13 @@
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="features">Features</a>
+                            <a class="nav-link" aria-current="page" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#youtube-video">Video Review</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="contact">Contact</a>
+                            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -46,8 +51,6 @@
     </nav>
 
     </header>
-
-
 
     <!-- Hero Section with Video and Overlay-->
 
@@ -62,9 +65,9 @@
             <div class="container h-100">
                 <div class="d-flex h-100 text-center align-items-center">
                     <div class="w-100 text-white">
-                        <h1>SmartCut 2</h2>
+                        <h1>SmartCut 2</h1>
                         <p class="hero-text">The next generation of affordable auto lawnmowers</p>
-                        <a class="btn btn-primary btn-lg text-uppercase " href="#contact">CALL NOW</a>
+                        <a class="btn btn-primary btn-lg text-uppercase " href="#contact">MAKE ENQUIRY NOW</a>
                     </div>
                 </div>
             </div>
@@ -112,7 +115,7 @@
     <!-- Secondary Features Section Grid-->
         <section id="secondary-features">
 
-            <div class="container">
+            <div class="container-fluid">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Even More Features</h2>
                     <h3 class="section-subheading text-muted">The SmartCut 2 is versatile and powerful</h3>
@@ -156,41 +159,44 @@
                 </div>
             </div>
         </section>
+
     <!-- Youtube Vid Section-->
-    <section id="youtube">
-        <div class="container">
+    <section id="youtube-video">
+        <div class="container-fluid youtube-vid">
             <div class="row">
                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item width="100%" height="315" src="https://www.youtube.com/embed/TyC0ijH2pF8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               </div>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TyC0ijH2pF8" width="100%" height="600px"></iframe>
+</div>
             </div>
         </div>
-    </section        
+    </section>        
 
 
-    <!-- Contact Section-->
+   <!-- Contact Section --> 
     <section id="contact">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <!-- G Map Left Col-->
                 <div class="col-md-6">
-                    <iframe frameborder="0" width="100%" height="500px"style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9715.01887050594!2d-9.379322811884515!3d52.501679475385004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ad78990a531b1%3A0xa00c7a997321530!2sCloonbrane%2C%20Newtown%20Sandes%2C%20Co.%20Kerry!5e0!3m2!1sen!2sie!4v1611052914820!5m2!1sen!2sie" allowfullscreen="yes"> 
+                    <iframe frameborder="0" width="100%" height="500px"style="border:0" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9715.01887050594!2d-9.379322811884515!3d52.501679475385004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ad78990a531b1%3A0xa00c7a997321530!2sCloonbrane%2C%20Newtown%20Sandes%2C%20Co.%20Kerry!5e0!3m2!1sen!2sie!4v1611052914820!5m2!1sen!2sie" 
+                    allowfullscreen="yes"> 
                     </iframe>
                 </div>
         
             <!-- Contact Form Title Right Col-->
-                <div class="col-md-6">
+                <div class="col-md-6 contact-right-col">
                     <h2>Contact</h2>
                     <h4>Don't hesitate to contact us</h4>
                     <!-- Contact Form Right Col-->   
                     <form>
-                        <div class="form-group ">
-                            <label for="InputName">Name</label>
+                        <div class="form-group">
+                            <label class="form-space" for="InputName">Name</label>
                             <input type="fullname" class="form-control" id="Full Name" aria-describedby="NameHelp" placeholder="Enter Full Name">
-                            <label for="InputEmail">Email address</label>
+                            <label class="form-space" for="InputEmail">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <small id="emailHelp" class="text-muted">We'll never share your email with anyone else.</small>
                         </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                     </form>    

@@ -24,14 +24,14 @@ p{
 
 .hero-text {
     font-family: Roboto, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color:#ffffff;
 }
 
 
 h1 {
     font-family: Oswald, sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: uppercase;
 }
 
@@ -138,9 +138,6 @@ h3 {
 }
 
 
-
-
-
 /*------Secondary Features Section Grid---*/
 #secondary-features {
   padding: 6rem 0;
@@ -174,12 +171,20 @@ h3 {
     padding: 20px;
 }
 
-/*---MAP & CONTACT FORM---*/
-#contact {
-    padding-top: 50px;
-    padding-bottom: 50px;
+/*---youtube vid---*/
+.youtube-vid{
+    padding: 0px;
 }
 
+
+/*---MAP & CONTACT FORM---*/
+
+.contact-right-col {
+    padding: 20px;
+}
+.form-space {
+    padding-top: 20px;
+}
 
 
 /*---FOOTER---*/
