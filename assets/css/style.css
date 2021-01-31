@@ -22,12 +22,6 @@ p{
     margin-top: 20px;
 }
 
-.hero-text {
-    font-family: Roboto, sans-serif;
-    font-size: 1.1rem;
-    color:#ffffff;
-}
-
 
 h1 {
     font-family: Oswald, sans-serif;
@@ -48,13 +42,39 @@ h3 {
     color: #157f1f;
 }
 
+/*---NAV--*/
+
+.navbar {
+    
+    background-color: #157f1f;
+    border-bottom: 4px solid #a0eade;
+    box-shadow: 0px 2px 5px #1d263b;
+    height: 70px;
+      
+}
+
+.navbar-brand img {
+    filter: drop-shadow(2px 2px 2px #1d263b);
+   
+}
+
+.navbar-brand:hover img {
+    filter: drop-shadow(2px 2px 2px #a0eade);
+}
+
+.nav-link {
+    font-family: 'Oswald', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
 
 /*------HERO Section---*/
 
 #hero {
   position: relative;
   background-color: black;
-  height: 90vh; /*------Expose next section---*/
+  height: 97vh; /*------Slightly expose the next section---*/
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -86,10 +106,16 @@ h3 {
   background-color: black;
   opacity: 0.5;
   z-index: 1;
-}
+ }
+
+ .hero-text {
+    font-family: Roboto, sans-serif;
+    font-size: 1.1rem;
+    color:#ffffff;
+ }
 
 .btn {
-    margin-top: 40px;
+    margin-top: 170px;
     background-color: #157f1f;
     border-color:#ffffff;
 }
@@ -111,30 +137,14 @@ h3 {
   }
 }
 
-/*---NAV--*/
+/*------Primary Features Section---*/
 
-.navbar {
-    
-    background-color: #157f1f;
-    border-bottom: 4px solid #a0eade;
-    box-shadow: 0px 2px 5px #1d263b;
-      
+#features{
+    padding-top: 50px;  /*------Allow for scrolling---*/
 }
 
-.navbar-brand img {
-    filter: drop-shadow(2px 2px 2px #1d263b);
-   
-}
-
-.navbar-brand:hover img {
-    filter: drop-shadow(2px 2px 2px #a0eade);
-}
-
-.nav-link {
-    font-family: 'Oswald', serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
+.rounded-circle {
+    width: 75%;
 }
 
 
@@ -173,11 +183,16 @@ h3 {
 
 /*---youtube vid---*/
 .youtube-vid{
-    padding: 0px;
+    padding: 60px 0px 0px;  /*------Allow for scrolling---*/
+    background-color: #1d263b;
 }
 
 
+
 /*---MAP & CONTACT FORM---*/
+.contact{
+    padding: 60px 0px 0px;  /*------Allow for scrolling---*/
+}
 
 .contact-right-col {
     padding: 20px;
@@ -203,5 +218,7 @@ h3 {
 .fa-facebook-f,
 .fa-linkedin-in {
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
 }
+
+
