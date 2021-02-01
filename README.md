@@ -69,6 +69,8 @@ This is my first Milestone Project on the Full Stack Web Developer Code Institut
     - Google fonts 'Oswald' and 'Roboto' were used by importing thourgh the style sheet
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used in the footer to add icons for aesthetic and UX purposes
+1. [Javascript:](https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js)
+    - To aid in the delivery of Bootstrap Scrollspy
 1. [Git](https://git-scm.com/)
     - Git was used for version control
 1. [GitHub:](https://github.com/)
@@ -102,31 +104,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
     1. As a First Time Visitor, I want to be presented with an easy to use navigation so that I can find information about the product.
 
-        1. Upon entering the page, users are presented with a clean navigation bar to go to the section of their choice. Underneath there is a Hero Video with Overlaid Text and a "Get Quote" Call to action button.
+        1. Upon entering the page, users are presented with a clean navigation bar to go to the section of their choice. Underneath there is a hero video with overlaid text and a "Get Quote" call to action button.
         2. The main message of next generation technology and affordabilty is presented on screen.
         3. The user has three options, click the call to action button, scroll down, or use the navigation menu.
 
     2. As a First Time Visitor, I want to be able to view easily digestible content so that I can get a product overview.
 
-        1. The site has been designed to be fluid, including a scrollspy feature to always indicate in the navigation which section they are currently viewing.
-        2. Each section has been designed to show information in a clear and retainable manner, with each information point haveing an associated image.
+        1. The site has been designed to be fluid, including a scrollspy feature to always indicate in the navigation which section is currently active.
+        2. Each section has been designed to display information in a clear and retainable manner, with each information point having an associated image.
         3. Customer review information has been presented in a video format, making it easier to absorb than long-winded text.
 
     3. As a First Time Visitor, I want to look for contact information and explore social media links so that I can evaluate this company's trust within the marketplace.
-        1. The contact section is clearly indicated in the navigation, along with a call to action in the hero section that leads to it.
-        2. By visiting the "Contact" section, social media links are available to the user in the footer underneath it.
+        1. The "Contact" section is clearly indicated in the navigation, along with a call to action in the hero section that leads to it.
+        2. By visiting the "Contact" section, social media links become available to the user in the footer underneath it.
 
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to confirm the features of the product so I can start making decisions about which company to purchase from.
 
-        1. The "Features" section is clearly shown in the navigation bar
+        1. The "Features" section is clearly shown in the navigation bar.
    
-    2. As a Returning Visitor, I want to contact the company so that I can get a quote for the product
+    2. As a Returning Visitor, I want to contact the company so that I can get a quote for the product.
 
         1. The navigation bar clearly highlights the "Contact Us" section.
-        2. The "Get Quote" Call to action in the hero links directly to the "COntact Us" section
-        3. The footer contains links to the organisations Facebook, Twitter and LinkedIn pages, which open in new browser tabs
+        2. The "Get Quote" Call to action in the hero links directly to the "COntact Us" section.
+        3. The footer contains links to the Facebook, Twitter and LinkedIn pages of the company, which open in new browser tabs.
       
 -   #### Frequent User Goals
 
@@ -171,8 +173,8 @@ The project was coded at GitPod, whereby commits were pushed to Github frequentl
 
 ### Code
 
--   [Bootstrap5](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
--   [Scrollspy](Bootstrap 5 Scrollspy from  https://getbootstrap.com/docs/5.0/components/scrollspy/-->): Bootstrap Scollspy functionality to allow Nav Items to Highlight depending on page position
+-   [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Video Overlay](https://startbootstrap.com/snippets/video-header): Code to implement self-hosted hero video background
 
 
 ### Content
