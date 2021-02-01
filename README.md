@@ -42,18 +42,16 @@ This is my first Milestone Project on the Full Stack Web Developer Code Institut
     -   Wireframes as 3 page PDF - [View](wireframes/wireframes.pdf)
 
 
-
 ## Features
 
 -   One page with multiple sections to be responsive on all device sizes
 -   Sections include Product Features, Accesories, Video Review and Contact 
 -   Footer to include Social media links
--   Self-hosted Hero video that adheres to brand guidelines
+-   Self-hosted Hero video that adheres to brand guidelines (Also I intentiionally spaced the Hero text above the approaching lawnmower in the video)
 -   Embedded youtube video 
 -   Call to Action to direct user to contact section
 -   Embedded Google Map
 -   Scroll Spy feature to update Nav Bar highlights
-
 
 
 ## Technologies Used
@@ -88,8 +86,15 @@ This is my first Milestone Project on the Full Stack Web Developer Code Institut
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the landing page to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/html_valid.jpg)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/css_valid.jpg)<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+      
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -142,8 +147,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### Known Bugs
 -   I have noticed that sometimes using the Bootstrap 5 NavBar it might take multiple clicks to bring a section into complete view
--   On Microsfot Internet Explorer some of the media functionality does not perform
--   On Microsoft Edge the smooth scrolling does not perform
+-   On Microsoft Internet Explorer and Microsoft Edge some of the media functionality / smooth scrolling does not perform well
 
 ## Deployment
 
@@ -158,12 +162,14 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com/niallfitzg/MSP1) in the "GitHub Pages" section.
 
-
+The project was coded at GitPod, whereby commits were pushed to Github frequently using the following methodology:
+-   git add . (to add allfiles)
+-   git commit -m "descriptive commit message" 
+-   git push  (to push to repository)
 
 ## Credits
 
 ### Code
-
 
 -   [Bootstrap5](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 -   [Scrollspy](Bootstrap 5 Scrollspy from  https://getbootstrap.com/docs/5.0/components/scrollspy/-->): Bootstrap Scollspy functionality to allow Nav Items to Highlight depending on page position
@@ -185,7 +191,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 -   My Mentor for continuous helpful feedback.
 
--  Code Institute for their continuous support.
+-  Code Institute for their continuous support in many ways.
 
 -  W3 Schools for reference [here](https://www.w3schools.com/)
 
