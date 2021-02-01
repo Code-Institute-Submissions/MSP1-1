@@ -25,8 +25,16 @@ p{
 
 h1 {
     font-family: Oswald, sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) { /*---Make h1 smaller on smaller devices--*/
+  h1 {
+    font-family: Oswald, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
 }
 
 h2 {
@@ -42,20 +50,36 @@ h3 {
     color: #157f1f;
 }
 
+h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    color: #157f1f;
+    text-transform: uppercase;
+}
+
 /*---NAV--*/
 
-.navbar {
-    
+@media only screen and (max-width: 600px) {  /*---Make brand logo smaller on smaller devices--*/
+  #logo {
+      height: 40px;
+    }
+}
+
+@media only screen and (max-width: 280px) {  /*---Make brand logo even smaller on even smaller devices--*/
+  #logo {
+      height: 30px;
+    }
+}
+
+.navbar {  
     background-color: #157f1f;
     border-bottom: 4px solid #a0eade;
     box-shadow: 0px 2px 5px #1d263b;
-    height: 70px;
-      
+    height: 70px;    
 }
 
 .navbar-brand img {
     filter: drop-shadow(2px 2px 2px #1d263b);
-   
 }
 
 .navbar-brand:hover img {
@@ -69,43 +93,44 @@ h3 {
     letter-spacing: 0.1rem;
 }
 
+
+
+
 /*------HERO Section---*/
 
 #hero {
-  position: relative;
-  background-color: black;
-  height: 97vh; /*------Slightly expose the next section---*/
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
+    position: relative;
+    height: 97vh; /*------Slightly expose the next section---*/
+    width: 100%;
+    overflow: hidden;
 }
 
 #hero video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 #hero .container {
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 #hero .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
  }
 
  .hero-text {
@@ -141,65 +166,64 @@ h3 {
 
 #features{
     padding-top: 50px;  /*------Allow for scrolling---*/
+    padding-bottom: 50px;
 }
 
 .rounded-circle {
-    width: 75%;
+    width: 300px;
+    height: 300px;
+    border: 12px solid #157f1f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
 }
 
-
-/*------Secondary Features Section Grid---*/
-#secondary-features {
-  padding: 6rem 0;
-  background-color: #1d263b;
+/*------Accessories Section---*/
+.feature-set{
+    padding:20px;
 }
 
-#secondary-features h2 {
-    color: #ffffff;
+.section-heading{
+    padding: 70px;
+    color: #157f1f; 
 }
-
-#secondary-features h3 {
-    color: #a0eade;
-    padding-top: 15px;
+#accessories{
+    background-color: #a0eade;
+    padding-bottom: 40px;
 }
-
-#secondary-features h4 {
-    color: #a0eade;
-}
-
-#secondary-features p {
-    color: #4cb963;
-    font-size: 1.3rem;
-}
-
-.fa-info-circle {
+#accessories h4 {
     padding-top: 40px;
-    color: #4cb963;
-}
-
-.gridpad {
-    padding: 20px;
 }
 
 /*---youtube vid---*/
 .youtube-vid{
-    padding: 60px 0px 0px;  /*------Allow for scrolling---*/
-    background-color: #1d263b;
+    padding: 0px;  /*------Allow for scrolling---*/ 
+    
 }
-
-
-
 /*---MAP & CONTACT FORM---*/
-.contact{
-    padding: 60px 0px 0px;  /*------Allow for scrolling---*/
+#contact{
+    height: 700px;  /*------Allow for scrolling---*/
 }
 
-.contact-right-col {
-    padding: 20px;
+#contact-right-col {
+    padding: 120px;
 }
-.form-space {
+
+#gmap {
+    padding: 0px;
+}
+
+#contact-button {
+    margin-top: 40px;
+}
+
+#contact-right-col h2, h4{
+    padding-bottom: 20px;
+}
+small {
     padding-top: 20px;
 }
+
+
 
 
 /*---FOOTER---*/

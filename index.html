@@ -18,26 +18,29 @@
           
     </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar"></body> <!-- Bootstrap 5 Scrollspy from  https://getbootstrap.com/docs/5.0/components/scrollspy/-->
+<body data-bs-spy="scroll" data-bs-target=".navbar"> <!-- Bootstrap 5 Scrollspy from  https://getbootstrap.com/docs/5.0/components/scrollspy/-->
 
     <header>
         <!-- Bootstrap Nav -->
         
-   <nav class="navbar navbar-expand-md navbar-dark fixed-top "> 
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top "> 
                <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.png" height="51" class="d-inline-block align-top" alt="FitzMow Logo" loading="lazy">
+                <img src="assets/images/logo.png" height="51" id="logo" class="d-inline-block align-top" alt="FitzMow Logo" loading="lazy">
             </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 text-uppercase">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#accessories">Accessories</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#youtube-video">Video Review</a>
@@ -76,16 +79,16 @@
     <!-- Primary Features Section-->
     <!-- 1st Primary Feature-->
 
-    <section id="features">
+<section id="features">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center text-center text-md-left">
                 <div class="col-lg-6 order-lg-2">
-                    <div class="p-5">
+                    <div class="px-4 py-4 px-md-5 py-md-5">
                         <img class="img-fluid rounded-circle" src="assets/images/image_01.jpg" alt="Fitzmow Automower Image">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
-                    <div class="p-5">
+                    <div class="px-4 py-4 px-md-5 py-md-5">
                         <h2>Compact Design</h2>
                         <p>Fitzmow SmartCut® 2 features a compact design and is ideal for smaller, complex gardens up to 600 m2, easily handling slopes with an incline of 40%. </p>
                     </div>
@@ -93,52 +96,58 @@
             </div>
         </div>
 
-    <!-- 2nd Primary Feature-->
+        <!-- 2nd Primary Feature-->
 
-   <div class="container">
-            <div class="row align-items-center">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-left">
                 <div class="col-lg-6">
-                    <div class="p-5">
+                    <div class="px-4 py-4 px-md-5 py-md-5">
                         <img class="img-fluid rounded-circle" src="assets/images/image_02.jpg" alt="Fitzmow Automower Image">
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="p-5">
+                    <div class="px-4 py-4 px-md-5 py-md-5">
                         <h2>Effective Operation</h2>
                         <p>The four-wheel platform together with systematic passage handling provide effective operation, and the triple-search function facilitates the fastest way home to the charging station.</p>
                     </div>
                 </div>
             </div>
         </div>
-    
-        </section> 
+    </section>
 
-    <!-- Secondary Features Cards Section-->
-        <section id="secondary-features">
-            <div class="container-fluid">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Even More Features</h2>
-                    <h3 class="section-subheading text-muted">The SmartCut 2 is versatile and powerful</h3>
+    <!-- Accessories Section-->
+        <section id="accessories">
+
+            <div class="container">
+
+                <div class="row text-center">
+                    <h2 class="section-heading text-uppercase">Accessories</h2> 
+                </div>     
+
+                <div class="row text-center">
+                    <div class="col-lg-4">
+                        <div class="feature-set">
+                            <img class="img-fluid mx-auto rounded-circle" src="assets/images/accessories_body_cover.png" alt="Accessories Body Cover" />
+                            <h4>Wheel Brush Kit</h4>
+                            <p class="text-muted">Keeps the driving wheels clean to maintain improved traction.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-set">
+                            <img class="img-fluid mx-auto rounded-circle" src="assets/images/accessories_terrain_kit.png" alt="Accessories Terrain Kit" />
+                            <h4>Body Change Kit</h4>
+                            <p class="text-muted">Make your mower unique and personal by changing the colour.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-set">
+                            <img class="img-fluid mx-auto rounded-circle" src="assets/images/accessories_wheel_brush_kit.png" alt="Accessories_Wheel_Brush_Kit" />
+                            <h4>Terrain kit</h4>
+                            <p class="text-muted">Kit containing heavy rear wheels for excellent traction on sloping lawns.</p>
+                        </div>
+                    </div>
                 </div>
                 
-                <!-- Secondary Features Cards First Row-->
-                <div class="row text-center gridpad">
-                    <div class="col-md-4">                   
-                        <i class="fas fa-info-circle fa-4x"></i>
-                        <h4 class="my-3">SmartCut® Connect</h4>
-                        <p>The Bluetooth® solution, SmartCut® Connect, gives you full control of the mower right in your smartphone.</p>
-                    </div>
-                    <div class="col-md-4">                   
-                        <i class="fas fa-info-circle fa-4x"></i>
-                        <h4 class="my-3">SmartCut® Connect</h4>
-                        <p>The Bluetooth® solution, SmartCut® Connect, gives you full control of the mower right in your smartphone.</p>
-                    </div>
-                    <div class="col-md-4">                   
-                        <i class="fas fa-info-circle fa-4x"></i>
-                        <h4 class="my-3">SmartCut® Connect</h4>
-                        <p>The Bluetooth® solution, SmartCut® Connect, gives you full control of the mower right in your smartphone.</p>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -147,7 +156,7 @@
         <div class="container-fluid youtube-vid">
             <div class="row">
                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TyC0ijH2pF8" width="100%" height="700px"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TyC0ijH2pF8" width="100%" height="800px" ></iframe>
                 </div>
             </div>
         </div>
@@ -157,30 +166,30 @@
    <!-- Contact Section --> 
     <section id="contact">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row text-center">
                 <!-- G Map Left Col-->
-                <div class="col-md-6">
-                    <iframe frameborder="0" width="100%" height="500px"style="border:0" 
+                <div class="col-md-6" id="gmap">
+                    <iframe frameborder="0" width="100%" height="700px" 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9715.01887050594!2d-9.379322811884515!3d52.501679475385004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ad78990a531b1%3A0xa00c7a997321530!2sCloonbrane%2C%20Newtown%20Sandes%2C%20Co.%20Kerry!5e0!3m2!1sen!2sie!4v1611052914820!5m2!1sen!2sie" 
                     allowfullscreen="yes"> 
                     </iframe>
                 </div>
         
             <!-- Contact Form Title Right Col-->
-                <div class="col-md-6 contact-right-col">
+                <div class="col-md-6" id="contact-right-col">
                     <h2>Contact</h2>
-                    <h4>Don't hesitate to contact us</h4>
+                    <h4>Get in touch for prices</h4>
                     <!-- Contact Form Right Col-->   
                     <form>
                         <div class="form-group">
                             <label class="form-space" for="InputName">Name</label>
-                            <input type="fullname" class="form-control" id="Full Name" aria-describedby="NameHelp" placeholder="Enter Full Name">
+                            <input type="fullname" class="form-control" id="FullName" aria-describedby="NameHelp" placeholder="Enter Full Name">
                             <label class="form-space" for="InputEmail">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 
                             <small id="emailHelp" class="text-muted">We'll never share your email with anyone else.</small>
                         </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button id="contact-button" type="submit" class="btn btn-primary">Submit</button>
                     </form>    
                 </div> 
             
@@ -206,7 +215,8 @@
         <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
       
-  </body>
+      
+</body>
 </html>
 
 </body>
