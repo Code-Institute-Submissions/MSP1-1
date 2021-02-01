@@ -1,4 +1,4 @@
-/*-----SITE COLOR PALETTE
+/*-----SITE MAIN COLOR PALETTE
 AO english: #157f1f;
 Middle-blue-green: #a0eade;
 */
@@ -162,7 +162,7 @@ h4 {
 /*------Primary Features Section---*/
 
 #features{
-    padding-top: 50px;  /*------Allow for scrolling---*/
+    padding-top: 50px;  
     padding-bottom: 50px;
 }
 
@@ -175,6 +175,14 @@ h4 {
 }
 
 /*------Accessories Section---*/
+
+#accessories{
+    background-color: #a0eade;
+    padding-bottom: 40px;
+    padding-top: 50px;  
+    height: 900px;  
+}
+
 .feature-set{
     padding:20px;
 }
@@ -183,26 +191,25 @@ h4 {
     padding: 70px;
     color: #157f1f; 
 }
-#accessories{
-    background-color: #a0eade;
-    padding-bottom: 40px;
-}
+
 #accessories h4 {
     padding-top: 40px;
 }
 
 /*---youtube vid---*/
-.youtube-vid{
-    padding: 0px;  /*------Allow for scrolling---*/ 
-    
+.video-review {
+    padding: 0px; 
 }
+
+
 /*---MAP & CONTACT FORM---*/
 #contact{
-    height: 700px;  /*------Allow for scrolling---*/
+    height: 700px;  
 }
 
 #contact-right-col {
     padding: 120px;
+   
 }
 
 #gmap {
