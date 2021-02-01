@@ -2,7 +2,7 @@
 Mile Stone Project 1
 <h1 align="center">FITZMOW Landing Page</h1>
 
-This is my first Milestone Project on the Full Stack Web Developer Code Institute course. My aim was to create a landing page for a fictional product that would satisfy the requiremnts of the project brief but also have the potential for commercial deployment if adapted at a later stage. It is built using HTML, CSS and the Bootstrap 5 Beta framework. The project itself is designed to be front-end only, so back-end functionality does not exist, which includes the form on the contact section. My mentor examined the project at an early stage and deemed that it met the requirements of the brief. 
+This is my first Milestone Project on the Full Stack Web Developer Code Institute course. My aim was to create a landing page for a fictional product that would satisfy the requirements of the project brief but also have the potential for commercial deployment if adapted at a later stage. It is built using HTML, CSS and the Bootstrap 5 Beta framework. The project itself is designed to be front-end only, so back-end functionality does not exist, which includes the form on the contact section. My mentor examined the project at an early stage and deemed that it met the requirements of the brief. 
 
 [View the live project here.](https://niallfitzg.github.io/MSP1/)
 
@@ -48,9 +48,9 @@ This is my first Milestone Project on the Full Stack Web Developer Code Institut
 -   One page with multiple sections to be responsive on all device sizes
 -   Sections include Product Features, Accesories, Video Review and Contact 
 -   Footer to include Social media links
--   Hosted, colour alette-adherent video in the hero
--   Interactive off-site youtube video 
--   Call to Action to direct user to get in touch for a quote
+-   Self-hosted Hero video that adheres to brand guidelines
+-   Embedded youtube video 
+-   Call to Action to direct user to contact section
 -   Embedded Google Map
 -   Scroll Spy feature to update Nav Bar highlights
 
