@@ -1,6 +1,6 @@
 # MSP1
 Mile Stone Project 1
-<h1 align="center">Fitzmow Landing Page</h1>
+<h1 align="center">FITZMOW Landing Page</h1>
 
 This is my first Milestone Project on the Full Stack Web Developer Code Institute course. My aim was to create a fictional landing page that would have the potential for commercial deployment if adapted at a later stage. It is built using HTML, CSS and the Bootstrap 5 framework. The project itself is designed to be front-end only, so back-end functionality does not exist, which includes the form on the contact section. My mentor examined the project at an early stage and deemed that it met the requirements of the brief. 
 
@@ -34,16 +34,14 @@ This is my first Milestone Project on the Full Stack Web Developer Code Institut
     -   #### Typography
         -   Oswald is used for headers as it is contemporary and it's proportions convey authority. Roboto is used for body text as it's sans-serif style is clean and easy to read. Sans Serif is the fallback font.
     -   #### Imagery, including Video
-        -   Imagery is important in both terms of branding and visual impact. The large, background hero video was retoned using the #157f1f green from the palette. The images were selected for visual impact and aherence ot the colour scheme.
+        -   Imagery is important in both terms of branding and visual impact. The large, background hero video was retoned using the #157f1f green from the palette. The images were selected for visual impact and adherence to the colour scheme.
    
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Wireframes as 3 page PDF - [View](wireframes/wireframes.pdf)
 
-    -   Mobile Wireframe - [View](https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
@@ -71,11 +69,11 @@ This is my first Milestone Project on the Full Stack Web Developer Code Institut
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code and files
 1. [Adobe Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to resizing images and editing photos
+    - Photoshop was used to resize images and edit photos
 1. [Adobe Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
     - Illustrator was used to create the company logo
 1. [Adobe Premiere:](https://www.adobe.com/ie/products/premiere.html)
-    - Illustrator was used to create the video hero
+    - Premiere was used to create the video hero
 1. [WireFrame Pro:](https://mockflow.com/apps/wireframepro/)
     - WireframePro was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -104,16 +102,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a First Time Visitor, I want to look for contact information and explore social media links so that I can evaluate this company's trust within the marketplace.
         1. The contact section is clearly indicated in the navigation, along with a call to action in the hero section that leads to it.
-        2. By visiting the contact section, social media links are available to the user in the footer underneath it.
-        3. 
+        2. By visiting the "Contact" section, social media links are available to the user in the footer underneath it.
 
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to confirm the features of the product so I can start making decisions about which company to purchase from.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
-
+        1. The "Features" section is clearly shown in the navigation bar
+   
     2. As a Returning Visitor, I want to contact the company so that I can get a quote for the product
 
         1. The navigation bar clearly highlights the "Contact Us" section.
@@ -124,7 +120,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a Frequent User, I want to use this site to compare this product with other company's products
 
-        1. Being a one-page landing site with easy-to-access sections, it makes the site very easy for the custoemr to keep open in one broswer tab while using other browser tabs to peruse other websites.
+        1. Being a one-page landing site with easy-to-access sections, it makes the site very easy for the user to keep open in one broswer tab while using other browser tabs to peruse other websites.
 
     2. As a Frequent User, I want to use the social media links to check the company's latest social media posts 
 
@@ -170,7 +166,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Content
 
--   The original video used in the header and Video Review section was found [here](https://www.youtube.com/watch?v=TyC0ijH2pF8&feature=emb_title)
+-   All descriptive text was taken from [here](https://www.husqvarna.com/ie/)
 
 
 ### Media
